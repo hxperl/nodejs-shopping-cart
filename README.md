@@ -30,3 +30,4 @@ $node seed/product-seeder.js
 ### Check out
 
 Insert your stripe key on <u>routes/index.js</u>(secret key) and <u>public/javascripts/checkout.js</u>(public key).
+> If you don't have API key,  Sign up [https://stripe.com](https://stripe.com)
