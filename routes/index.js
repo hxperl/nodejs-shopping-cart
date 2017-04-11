@@ -74,7 +74,7 @@ router.post('/checkout', isLoggedIn,function(req, res, next){
     return res.redirect('/shopping-cart');
   }
    var cart= new Cart(req.session.cart);
-  var stripe = require("stripe")("sk_test_w4ppXl4PqCLnRqJ1B8IlGQRI");
+  var stripe = require("stripe")("Your secret key");
   
   stripe.charges.create({
     amount: cart.totalPrice *100,

@@ -1,4 +1,4 @@
-Stripe.setPublishableKey('pk_test_OkV6jUZ1joIYUgSHe5viIhIH');
+Stripe.setPublishableKey('Your stripe public key');
 
 var $form= $('#checkout-form');
 
